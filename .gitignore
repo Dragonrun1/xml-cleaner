@@ -1,0 +1,12 @@
+composer.phar
+junk*.php
+test.php
+composer.lock
+config/yapeal.ini
+config/yapeal.yaml
+*.log
+.idea/
+cache/
+docs/
+vendor/
+xdebug/

@@ -1,0 +1,35 @@
+{
+    "name": "dagonrun1/xml-cleaner",
+    "description": "A wrapper for some XML utilities to make deleting name spaces, their elements and attributes easier.",
+    "keywords": [
+        "XML",
+        "Namespace",
+        "Utility",
+        "SimpleXML",
+        "DOM",
+        "XSLTProcessor",
+        "Tidy",
+        "fluent interface"
+    ],
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Michael Cummings",
+            "email": "mgcummings@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XmlCleaner\\": ["src/"]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "ext-DOM": "*",
+        "ext-SimpleXML": "*",
+        "ext-SPL": "*",
+        "ext-tidy": "*",
+        "ext-xsl": "*",
+        "php": ">=5.4.1"
+    }
+}

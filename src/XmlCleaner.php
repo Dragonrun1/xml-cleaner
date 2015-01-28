@@ -1,6 +1,6 @@
 <?php
 /**
- * Contains XmlCleaner Bootstrap.
+ * Contains XmlCleaner class.
  *
  * PHP version 5.4
  *
@@ -121,7 +121,7 @@ class XmlCleaner
      */
     public function getXml()
     {
-        if (0 === strlen($this->xml)) {
+        if (0 == strlen($this->xml)) {
             $mess = 'XML MUST be set before it can be used';
             throw new RuntimeException($mess);
         }
@@ -265,7 +265,7 @@ class XmlCleaner
      *
      * @return $this|string Returns result if given XML string or $this if not.
      */
-    public function removeXmlComments($xml)
+    public function removeXmlComments($xml = null)
     {
         $wasNull = false;
         if (null === $xml) {

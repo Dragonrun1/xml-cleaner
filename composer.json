@@ -1,5 +1,5 @@
 {
-    "name": "dagonrun1/xml-cleaner",
+    "name": "dragonrun1/xml-cleaner",
     "description": "A wrapper for some XML utilities to make deleting name spaces, their elements and attributes easier.",
     "keywords": [
         "XML",

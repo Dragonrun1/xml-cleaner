@@ -11,7 +11,7 @@
         "Tidy",
         "fluent interface"
     ],
-    "license": "GPL2",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "Michael Cummings",
